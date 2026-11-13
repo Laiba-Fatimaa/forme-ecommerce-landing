@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover thoughtfully selected everyday essentials at Forme." />
+  <meta name="theme-color" content="#f7f5f0" />
+  <title>FORME — Everyday, Elevated</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Forme home">FORME<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#story">Our story</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="bag-link" href="#shop">Explore <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">THE EVERYDAY EDIT · 2026</p>
+        <h1>Find your<br><em>everyday</em> form.</h1>
+        <p class="hero-copy">Thoughtful pieces. Timeless details.<br>Made to fit the way you live.</p>
+        <a class="button button-light" href="#shop">Discover the collection <span>→</span></a>
+      </div>
+      <div class="hero-note"><span>01 / 03</span><span>CURATED FOR YOUR EVERYDAY</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="story">
+      <p class="eyebrow">A LITTLE MORE INTENTIONAL</p>
+      <h2>Good design isn't loud.<br><em>It just feels right.</em></h2>
+      <p class="intro-copy">FORME brings together useful, beautiful essentials chosen with care. Explore a considered collection of pieces that make the everyday feel a little more special.</p>
+    </section>
+
+    <section class="shop-section section-wrap" id="shop">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE COLLECTION</p>
+          <h2>Find your next <em>favourite.</em></h2>
+        </div>
+        <p class="section-side-note">A considered selection<br>for everyday living.</p>
+      </div>
+
+      <div class="category-row" role="group" aria-label="Filter products by category">
+        <button class="filter-btn active" data-filter="All" aria-pressed="true">All pieces</button>
+        <button class="filter-btn" data-filter="Wear">Wear</button>
+        <button class="filter-btn" data-filter="Carry">Carry</button>
+        <button class="filter-btn" data-filter="Living">Living</button>
+      </div>
+
+      <div class="product-grid" id="productGrid" aria-live="polite">
+        <article class="product-card" data-category="Wear">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85" alt="Neutral-toned minimalist outfit" loading="lazy"><span class="product-tag">BESTSELLER</span><button class="quick-add" data-name="The Everyday Shirt" data-price="4200">Quick add +</button></div>
+          <div class="product-info"><div><h3>The Everyday Shirt</h3><p>Wear · Sand</p></div><strong>Rs. 4,200</strong></div>
+        </article>
+        <article class="product-card" data-category="Carry">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=900&q=85" alt="Minimal structured everyday handbag" loading="lazy"><button class="quick-add" data-name="The Form Tote" data-price="5600">Quick add +</button></div>
+          <div class="product-info"><div><h3>The Form Tote</h3><p>Carry · Cocoa</p></div><strong>Rs. 5,600</strong></div>
+        </article>
+        <article class="product-card" data-category="Living">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85" alt="Calm neutral modern living space" loading="lazy"><span class="product-tag">NEW</span><button class="quick-add" data-name="The Sunday Set" data-price="3800">Quick add +</button></div>
+          <div class="product-info"><div><h3>The Sunday Set</h3><p>Living · Natural</p></div><strong>Rs. 3,800</strong></div>
+        </article>
+        <article class="product-card" data-category="Wear">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=900&q=85" alt="Minimal neutral footwear" loading="lazy"><button class="quick-add" data-name="The Daily Essential" data-price="4900">Quick add +</button></div>
+          <div class="product-info"><div><h3>The Daily Essential</h3><p>Wear · Cream</p></div><strong>Rs. 4,900</strong></div>
+        </article>
+        <article class="product-card" data-category="Carry">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=85" alt="Minimal everyday backpack" loading="lazy"><button class="quick-add" data-name="The Weekender" data-price="6200">Quick add +</button></div>
+          <div class="product-info"><div><h3>The Weekender</h3><p>Carry · Olive</p></div><strong>Rs. 6,200</strong></div>
+        </article>
+        <article class="product-card" data-category="Living">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=85" alt="Warm minimal home accessories" loading="lazy"><button class="quick-add" data-name="The Quiet Corner" data-price="2900">Quick add +</button></div>
+          <div class="product-info"><div><h3>The Quiet Corner</h3><p>Living · Soft white</p></div><strong>Rs. 2,900</strong></div>
+        </article>
+      </div>
+      <p class="cart-status" id="cartStatus" role="status">Your bag is empty.</p>
+    </section>
+
+    <section class="feature-banner">
+      <div class="feature-image" role="img" aria-label="Sunlit neutral interior"></div>
+      <div class="feature-copy">
+        <p class="eyebrow light">LESS, BUT BETTER</p>
+        <h2>Keep what<br><em>matters.</em></h2>
+        <p>Pieces picked to work harder, last longer and feel like you.</p>
+        <a href="#shop" class="text-link light-link">Explore all pieces <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="newsletter section-wrap">
+      <p class="eyebrow">A NOTE FROM FORME</p>
+      <h2>Good things, <em>occasionally.</em></h2>
+      <p>Sign up for collection updates and a little inspiration.</p>
+      <form id="newsletterForm" class="newsletter-form">
+        <label class="sr-only" for="emailInput">Your email address</label>
+        <input id="emailInput" type="email" placeholder="Your email address" required>
+        <button type="submit">Sign me up ↗</button>
+      </form>
+      <p class="form-message" id="formMessage" role="status"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-top">
+      <a class="logo footer-logo" href="#home">FORME<span>.</span></a>
+      <p>Thoughtful finds for<br>everyday living.</p>
+      <div class="footer-links"><a href="#shop">Shop</a><a href="#story">Our story</a><a href="mailto:hello@forme.example">Email us</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 FORME. Student project concept.</span><a href="#home">Back to top ↑</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
