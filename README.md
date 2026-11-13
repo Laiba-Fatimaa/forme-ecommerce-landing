@@ -1,7 +1,12 @@
-<<<<<<< HEAD
 # FORME — Ecommerce Landing Page
 
 A responsive, single-page ecommerce landing page created for the Looponics Student Practical Challenge.
+
+
+## Live Website
+
+[Visit FORME here](https://laiba-fatimaa.github.io/forme-ecommerce-landing/)
+
 
 ## Features
 - Full-width photographic hero with centered text and call-to-action
@@ -36,6 +41,3 @@ This is a front-end student demonstration. It does not process real payments, st
 - `project-plan.md` — project planning
 - `prompts.md` — AI prompts and outcomes
 - `testing-report.md` — test plan and manual checks
-=======
-# forme-ecommerce-landing
->>>>>>> e077548608e769e20c4e10b9773f75520c5305bd
