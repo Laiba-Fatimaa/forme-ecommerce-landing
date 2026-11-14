@@ -24,13 +24,6 @@ A responsive, single-page ecommerce landing page created for the Looponics Stude
 - Google Fonts
 - Unsplash images
 
-## Run locally
-1. Download or clone this repository.
-2. Open the project folder.
-3. Double-click `index.html`, or use the Live Server extension in VS Code.
-
-No package installation or build step is required.
-
 ## Important note
 This is a front-end student demonstration. It does not process real payments, store cart data, or send newsletter emails.
 
