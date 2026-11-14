@@ -50,6 +50,3 @@
 - Newsletter signup displays a local confirmation; it does not send or store emails.
 - No payment gateway or backend is connected.
 - Remote images and Google Fonts require an internet connection.
-
-## Testing Outcome
-Testing will be completed locally and after deployment. Any issues found will be corrected before final submission.
